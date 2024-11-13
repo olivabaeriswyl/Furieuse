@@ -32,4 +32,9 @@ h2 {
 h3 {
   font-size: 20px;
   font-weight: 900;
+  margin-bottom: 12px;
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }
