@@ -42,10 +42,14 @@ header .button:hover path {
 
 #button-footer {
   padding: 40px 20px 240px;
+  border-start-start-radius: 5px;
+  border-start-end-radius: 5px;
 }
 
 #button-footer:hover {
   padding-bottom: 250px;
+  border-start-start-radius: 0;
+  border-start-end-radius: 0;
 }
 
 main .button {
@@ -56,4 +60,13 @@ main .button {
 
 main .button:hover {
   border-radius: 0;
+}
+
+.arrow-up-page path {
+  fill: #96ea39;
+  transition: fill 0.5s ease;
+}
+
+#button-footer:hover path {
+  fill: #2d940e;
 }

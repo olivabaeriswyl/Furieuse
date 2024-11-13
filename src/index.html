@@ -57,24 +57,25 @@
 
     <main>
       <div class="margin-edge-complete">
-        <div class="position">
+        <div class="position-bubble-parent">
           <img
             src="img/bubble-baron-question.png"
             alt="Mais que traficote donc Ysabelle ?"
-            class="face-bubble"
+            class="face-bubble position-bubble-child"
           />
 
           <img
             src="img/face-baron-1-question.png"
-            alt="Mais que traficote donc Ysabelle ?"
-            class="face-present"
+            alt="Baron questionné"
+            class="face-present position-face-child"
+          />
+
+          <img
+            src="img/transition-land-begin.png"
+            alt="Paysage verdoyant avec une maison à son centre."
+            class="img-cover-all"
           />
         </div>
-        <img
-          src="img/transition-land-begin.png"
-          alt="Paysage verdoyant avec une maison à son centre."
-          class="img-cover-all"
-        />
       </div>
 
       <div class="container">
@@ -133,14 +134,12 @@
 
         <div class="row">
           <div class="col-lg-7 offset-lg-5">
-            <div class="position">
-              <img
-                src="img/story-case-3.png"
-                alt="Illustration d'une facade en ruine inquiétante."
-                id="margin-special-facade"
-                class="img-size-inside"
-              />
-            </div>
+            <img
+              src="img/story-case-3.png"
+              alt="Illustration d'une facade en ruine inquiétante."
+              id="margin-special-facade"
+              class="img-size-inside"
+            />
           </div>
         </div>
 
@@ -200,16 +199,16 @@
       </div>
 
       <div class="margin-edge-complete">
-        <div class="position">
+        <div class="position-bubble-parent">
           <img
             src="img/bubble-baron-angry.png"
             alt="Fort bien! Ysabelle se fait bien trop attendre. Quoi qu'il en soit, je veillerai à ce qu'elle devienne mienne."
-            class="face-bubble"
+            class="face-bubble position-bubble-child"
           />
           <img
             src="img/face-baron-6-rage.png"
-            alt="Baron"
-            class="face-present"
+            alt="Baron enragé"
+            class="face-present position-face-child"
           />
           <img
             src="img/transition-land-end.png"
@@ -368,9 +367,21 @@
           </div>
           <div class="col-lg-2 offset-lg-2">
             <div id="button-footer" class="button">
-              <a href="#header"
-                ><img src="img/arrow.svg" alt="Haut de page"
-              /></a>
+              <a href="#header">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="52"
+                  height="57"
+                  viewBox="0 0 52 57"
+                  fill="none"
+                  class="arrow-up-page"
+                >
+                  <path
+                    d="M26 0L0.0192371 45L51.9808 45L26 0ZM30.5 57L30.5 40.5L21.5 40.5L21.5 57L30.5 57Z"
+                    fill="#96EA39"
+                  />
+                </svg>
+              </a>
             </div>
           </div>
         </div>
