@@ -1,0 +1,37 @@
+.button {
+  color: #96ea39;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #e7364d;
+  transition: all 0.5s ease;
+}
+
+.button:hover {
+  color: #2d940e;
+  background-color: #96ea39;
+}
+
+.button a {
+  text-decoration: none;
+}
+
+header .button {
+  padding: 30px;
+  padding-top: 80px;
+  border-end-end-radius: 5px;
+  border-end-start-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+header .button:hover {
+  padding-top: 90px;
+}
+
+.link-arrow path {
+  stroke: #96ea39;
+  transition: stroke 0.5s ease;
+}
+
+header .button:hover path {
+  stroke: #2d940e;
+}
