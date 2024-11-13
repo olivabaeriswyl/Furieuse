@@ -4,6 +4,8 @@
   font-weight: 700;
   background-color: #e7364d;
   transition: all 0.5s ease;
+  display: flex;
+  justify-content: center;
 }
 
 .button:hover {
@@ -25,6 +27,8 @@ header .button {
 
 header .button:hover {
   padding-top: 90px;
+  border-end-end-radius: 0;
+  border-end-start-radius: 0;
 }
 
 .link-arrow path {
@@ -34,4 +38,22 @@ header .button:hover {
 
 header .button:hover path {
   stroke: #2d940e;
+}
+
+#button-footer {
+  padding: 40px 20px 240px;
+}
+
+#button-footer:hover {
+  padding-bottom: 250px;
+}
+
+main .button {
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  padding: 10px;
+}
+
+main .button:hover {
+  border-radius: 0;
 }
