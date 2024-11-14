@@ -1,3 +1,4 @@
+// Espacements extérieurs et intérieurs
 .margin-paragraph {
   margin-bottom: 10px;
 }
@@ -31,6 +32,12 @@
   margin-bottom: 160px;
 }
 
+.margin-footer-title {
+  margin-bottom: 60px;
+}
+
+/* Différentes marges du haut lorsque le Baron raconte l'histoire -> par 
+rapport au haut de l'image en lien */
 #margin-baron-first {
   margin-top: 392px;
 }

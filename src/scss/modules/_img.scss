@@ -1,8 +1,14 @@
+// Pour les images qui couvrent tout le site internet
 .img-cover-all {
   width: 100%;
 }
 
+// Pour les images qui se trouvent dans la grille bootstrap -> forcer à avoir la bonne taille
 .img-size-inside {
   width: 100%;
   height: auto;
+}
+
+.img-footer-title {
+  width: 213px;
 }

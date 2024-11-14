@@ -30,3 +30,23 @@
   margin-bottom: 28px;
   width: 208px;
 }
+
+#position-footer-back {
+  position: relative;
+  z-index: 1;
+}
+
+#position-footer-middle {
+  position: relative;
+  z-index: 2;
+  margin-bottom: -200px;
+}
+
+#position-footer-front {
+  position: relative;
+  z-index: 3;
+}
+
+#position-footer-parent {
+  position: relative;
+}

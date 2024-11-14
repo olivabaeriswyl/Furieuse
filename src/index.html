@@ -15,7 +15,7 @@
             <div class="row">
               <div class="col-lg-8">
                 <div class="position">
-                  <div class="flex-header-title">
+                  <div class="flex-header-title" id="background-header-title">
                     <h1><img src="img/title-furieuse.png" alt="Furieuse" /></h1>
                     <h2>La BD qui revisite la légende d'Arthur !</h2>
                   </div>
@@ -27,7 +27,7 @@
                     <a
                       href="https://www.amazon.fr/Furieuse-Monde-Geoffroy/dp/2205203223"
                       target="_blank"
-                      >Acheter l'aventure sur Amazone
+                      >Acheter l'aventure sur Amazon
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -55,7 +55,7 @@
     </div>
 
     <main>
-      <div class="margin-edge-complete">
+      <div>
         <div class="position-bubble-parent">
           <img
             src="img/bubble-baron-question.png"
@@ -199,7 +199,7 @@
         </div>
       </div>
 
-      <div class="margin-edge-complete">
+      <div>
         <div class="position-bubble-parent">
           <img
             src="img/bubble-baron-angry.png"
@@ -284,7 +284,7 @@
                 <a
                   href="https://www.amazon.fr/Furieuse-Monde-Geoffroy/dp/2205203223"
                   target="_blank"
-                  >Acheter sur Amazone</a
+                  >Acheter sur Amazon</a
                 >
               </div>
             </div>
@@ -326,30 +326,32 @@
 
     <div class="container">
       <footer>
-        <div class="position">
-          <img src="img/footer-vegetation.png" alt="" />
-        </div>
-        <div class="row">
-          <div class="col-lg-8">
+        <div class="row" id="position-footer-parent">
+          <div id="position-footer-middle">
+            <img src="img/footer-vegetation.png" alt="" />
+          </div>
+          <div class="col-lg-8" id="position-footer-back">
             <div id="background-footer">
               <div class="row">
-                <div class="col-lg-6">
-                  <img
-                    src="img/title-furieuse.png"
-                    alt="Furieuse"
-                    class="img-size-inside"
-                  />
-                  <h2>Découvrir les auteurs</h2>
-                  <a
-                    href="https://www.dargaud.com/auteurs/monde-geoffroy"
-                    target="_blank"
-                    >Geoffroy Monde
-                  </a>
-                  <a
-                    href="https://www.dargaud.com/auteurs/burniat-mathieu"
-                    target="_blank"
-                    >Mathieu Burniat</a
-                  >
+                <div class="col-lg-5 offset-lg-2">
+                  <div class="margin-footer-title">
+                    <img
+                      src="img/title-furieuse.png"
+                      alt="Furieuse"
+                      class="img-footer-title"
+                    />
+                    <h2>Découvrir les auteurs</h2>
+                    <a
+                      href="https://www.dargaud.com/auteurs/monde-geoffroy"
+                      target="_blank"
+                      >Geoffroy Monde
+                    </a>
+                    <a
+                      href="https://www.dargaud.com/auteurs/burniat-mathieu"
+                      target="_blank"
+                      >Mathieu Burniat
+                    </a>
+                  </div>
                 </div>
                 <div class="col-lg-4 offset-lg-1">
                   <div class="flex-link">
@@ -372,12 +374,14 @@
                       ><img src="img/link-youtube.svg" alt="Youtube"
                     /></a>
                   </div>
-                  <p>©2024 Dargaud</p>
+                  <div id="flex-copyright">
+                    <p>©2024 Dargaud</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-2 offset-lg-2">
+          <div class="col-lg-2 offset-lg-2" id="position-footer-front">
             <div id="button-footer" class="button">
               <a href="#header">
                 <svg

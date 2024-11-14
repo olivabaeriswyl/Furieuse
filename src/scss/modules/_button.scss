@@ -1,3 +1,4 @@
+// Style des boutons
 .button {
   color: #96ea39;
   font-size: 20px;
@@ -17,6 +18,7 @@
   text-decoration: none;
 }
 
+// Bouton header -> Acheter l'aventure sur Amazon
 header .button {
   padding: 30px;
   padding-top: 80px;
@@ -40,6 +42,18 @@ header .button:hover path {
   stroke: #2d940e;
 }
 
+// Bouton main -> Acheter sur Amazon
+main .button {
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  padding: 10px;
+}
+
+main .button:hover {
+  border-radius: 0;
+}
+
+// Bouton footer -> flèche haut de page
 #button-footer {
   padding: 40px 20px 240px;
   border-start-start-radius: 5px;
@@ -50,16 +64,7 @@ header .button:hover path {
   padding-bottom: 250px;
   border-start-start-radius: 0;
   border-start-end-radius: 0;
-}
-
-main .button {
-  border-radius: 5px;
-  transition: all 0.5s ease;
-  padding: 10px;
-}
-
-main .button:hover {
-  border-radius: 0;
+  transform: translateY(-10px);
 }
 
 .arrow-up-page path {
