@@ -43,7 +43,10 @@ gsap.from("#face-baron-second", {
 gsap.from("#face-baron-third", {
   x: "650px",
   duration: 1,
-  scrollTrigger: { trigger: "#margin-story-big", start: "top center" },
+  scrollTrigger: {
+    trigger: "#margin-story-big",
+    start: "top center",
+  },
 });
 
 gsap.from("#face-baron-fourth", {
@@ -51,3 +54,5 @@ gsap.from("#face-baron-fourth", {
   duration: 1,
   scrollTrigger: { trigger: "#img-margin-edge-story", start: "top center" },
 });
+
+/*Parallax*/
