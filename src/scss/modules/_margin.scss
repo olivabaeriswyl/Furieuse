@@ -33,19 +33,12 @@
 }
 
 .margin-footer-title {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
+  padding-left: 150px;
 }
 
-/* Différentes marges du haut lorsque le Baron raconte l'histoire -> par 
-rapport au haut de l'image en lien */
-#margin-baron-first {
-  margin-top: 392px;
-}
-
-#margin-baron-third {
-  margin-top: 270px;
-}
-
-#margin-baron-fourth {
-  margin-top: 376px;
+#margin-footer-link {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: solid 2px #e7364d;
 }

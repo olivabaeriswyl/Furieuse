@@ -37,9 +37,11 @@
 }
 
 #position-footer-middle {
-  position: relative;
+  pointer-events: none;
+  position: absolute;
   z-index: 2;
-  margin-bottom: -200px;
+  bottom: 0;
+  left: 0;
 }
 
 #position-footer-front {
@@ -49,4 +51,9 @@
 
 #position-footer-parent {
   position: relative;
+}
+
+#position-vegetation {
+  height: 536px;
+  margin-left: -120px;
 }

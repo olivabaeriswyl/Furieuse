@@ -11,10 +11,17 @@
   display: flex;
 }
 
+.flex-link {
+  margin-top: 80px;
+}
+
+.flex-link a {
+  margin-right: 10px;
+}
+
 // Copyrights -> pour que cela se mette en bas du rectangle
 #flex-copyright {
-  height: 100%;
-  padding-bottom: 20px;
+  height: 80px;
   display: flex;
   align-items: end;
 }
