@@ -1,15 +1,40 @@
-#parallaxgsap-1 {
-  position: absolute;
-  top: 10px;
-}
-
-#parallax-2 {
-  position: absolute;
-  bottom: 200px;
-  left: 500px;
-}
-
-#parallax-animation {
+.parallax-animation {
   width: 100%;
   height: 100%;
+}
+
+/*Image groseilles*/
+#parallax-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#parallax-1 img {
+  width: 510px;
+}
+
+/*Image*/
+#parallax-2 {
+  position: absolute;
+  z-index: 2;
+  left: 700px;
+  bottom: 0px;
+}
+
+#parallax-2 img {
+  height: 295px;
+}
+
+/*Image*/
+
+#parallax-hill {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 800px;
+}
+
+#parallax-hill img {
+  height: 385px;
 }

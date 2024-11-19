@@ -56,3 +56,44 @@ gsap.from("#face-baron-fourth", {
 });
 
 /*Parallax*/
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".parallax-animation",
+      start: "top top",
+      scrub: 2,
+      pin: true,
+    },
+  })
+  .to("#parallax-1", {
+    top: -400,
+    left: -200,
+  })
+  .to(
+    "#parallax-2",
+    {
+      left: 500,
+      bottom: -200,
+    },
+    0
+  );
+
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".parallax-animation",
+      start: "top top",
+      scrub: 2,
+      pin: true,
+    },
+  })
+  .to("#parallax-hill", {
+    left: 500,
+  })
+  .to(
+    "#parallax-2",
+    {
+      left: 500,
+    },
+    0
+  );
