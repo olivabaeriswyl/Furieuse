@@ -65,12 +65,12 @@ gsap
       pin: true,
     },
   })
-  .to("#parallax-1", {
+  .to("#parallax-berry", {
     top: -400,
     left: -200,
   })
   .to(
-    "#parallax-2",
+    "#parallax-stone",
     {
       left: 500,
       bottom: -200,
@@ -91,9 +91,22 @@ gsap
     left: 500,
   })
   .to(
-    "#parallax-2",
+    "#",
     {
       left: 500,
     },
     0
   );
+
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".parallax-animation",
+      start: "top top",
+      scrub: 2,
+      pin: true,
+    },
+  })
+  .to("#parallax-tree", {
+    left: 2500,
+  });

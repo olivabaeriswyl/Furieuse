@@ -4,25 +4,25 @@
 }
 
 /*Image groseilles*/
-#parallax-1 {
+#parallax-berry {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-#parallax-1 img {
+#parallax-berry img {
   width: 510px;
 }
 
 /*Image*/
-#parallax-2 {
+#parallax-stone {
   position: absolute;
   z-index: 2;
   left: 700px;
   bottom: 0px;
 }
 
-#parallax-2 img {
+#parallax-stone img {
   height: 295px;
 }
 
@@ -37,4 +37,14 @@
 
 #parallax-hill img {
   height: 385px;
+}
+
+#parallax-tree {
+  position: absolute;
+  top: -30px;
+  left: 2710px;
+}
+
+#parallax-tree img {
+  width: 1580px;
 }
