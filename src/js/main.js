@@ -89,6 +89,20 @@ gsap
     0
   )
   .to(
+    "#parallax-characters",
+    {
+      left: 4580,
+    },
+    0
+  )
+  .to(
+    "#parallax-clouds",
+    {
+      left: 1030,
+    },
+    0
+  )
+  .to(
     "#parallax-tree",
     {
       left: 2610,
@@ -96,16 +110,3 @@ gsap
     },
     0
   );
-
-// gsap
-//   .timeline({
-//     scrollTrigger: {
-//       trigger: ".parallax-animation",
-//       start: "top top",
-//       scrub: 2,
-//       pin: true,
-//     },
-//   })
-//   .to("#parallax-tree", {
-//     left: 2500,
-//   });

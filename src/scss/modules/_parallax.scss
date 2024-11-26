@@ -3,7 +3,7 @@
   height: 100%;
 }
 
-/*Image groseilles*/
+/*Parallax de début groseilles*/
 #parallax-berry {
   position: absolute;
   top: 0;
@@ -14,7 +14,7 @@
   width: 510px;
 }
 
-/*Image*/
+/*Parallax de début pierre*/
 #parallax-stone {
   position: absolute;
   z-index: 2;
@@ -26,8 +26,7 @@
   height: 295px;
 }
 
-/*Image*/
-
+/*Parallax de début colline*/
 #parallax-hill {
   position: absolute;
   z-index: 1;
@@ -39,6 +38,7 @@
   height: 385px;
 }
 
+/*Parallax de début arbre*/
 #parallax-tree {
   position: absolute;
   top: -100px;
@@ -47,4 +47,26 @@
 
 #parallax-tree img {
   width: 1580px;
+}
+
+/*Parallax de début personnages*/
+#parallax-characters {
+  position: absolute;
+  bottom: 0;
+  left: 6000px;
+}
+
+#parallax-characters img {
+  height: 600px;
+}
+
+/*Parallax de début nuages*/
+#parallax-clouds {
+  position: absolute;
+  top: 0;
+  left: 1315px;
+}
+
+#parallax-clouds img {
+  height: 580px;
 }
