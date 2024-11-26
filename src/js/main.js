@@ -56,6 +56,8 @@ gsap.from("#face-baron-fourth", {
 });
 
 /*Parallax*/
+// const parallaxWidth = document.querySelector(".parallax-animation").offsetWidth;
+
 gsap
   .timeline({
     scrollTrigger: {
@@ -63,6 +65,7 @@ gsap
       start: "top top",
       scrub: 2,
       pin: true,
+      // end: "10px",
     },
   })
   .to(
