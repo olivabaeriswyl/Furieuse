@@ -65,10 +65,14 @@ gsap
       pin: true,
     },
   })
-  .to("#parallax-berry", {
-    top: -400,
-    left: -200,
-  })
+  .to(
+    "#parallax-berry",
+    {
+      top: -400,
+      left: -200,
+    },
+    0
+  )
   .to(
     "#parallax-stone",
     {
@@ -76,37 +80,32 @@ gsap
       bottom: -200,
     },
     0
-  );
-
-gsap
-  .timeline({
-    scrollTrigger: {
-      trigger: ".parallax-animation",
-      start: "top top",
-      scrub: 2,
-      pin: true,
-    },
-  })
-  .to("#parallax-hill", {
-    left: 500,
-  })
+  )
   .to(
-    "#",
+    "#parallax-hill",
     {
       left: 500,
     },
     0
+  )
+  .to(
+    "#parallax-tree",
+    {
+      left: 2610,
+      top: -200,
+    },
+    0
   );
 
-gsap
-  .timeline({
-    scrollTrigger: {
-      trigger: ".parallax-animation",
-      start: "top top",
-      scrub: 2,
-      pin: true,
-    },
-  })
-  .to("#parallax-tree", {
-    left: 2500,
-  });
+// gsap
+//   .timeline({
+//     scrollTrigger: {
+//       trigger: ".parallax-animation",
+//       start: "top top",
+//       scrub: 2,
+//       pin: true,
+//     },
+//   })
+//   .to("#parallax-tree", {
+//     left: 2500,
+//   });
