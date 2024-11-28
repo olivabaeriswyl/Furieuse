@@ -1,24 +1,24 @@
-// Espacements extérieurs et intérieurs
+// Marges des paragraphes de texte sur tout le site
 .margin-paragraph {
   margin-bottom: 10px;
 }
 
+// Marges du texte de la partie commande
 .margin-section {
   margin-bottom: 50px;
 }
 
-.margin-part {
-  margin-bottom: 40px;
-}
-
+// Marges du bas de la partie commande
 .margin-part-order {
   margin-bottom: 240px;
 }
 
+// Marges du titre de la partie commande
 .margin-title {
   margin-bottom: 40px;
 }
 
+// Marges de l'histoire
 #margin-special-facade {
   margin-top: -70px;
   margin-bottom: 100px;
@@ -32,6 +32,7 @@
   margin-bottom: 160px;
 }
 
+// Marges pour le footer
 .margin-footer-title {
   padding-bottom: 60px;
   padding-left: 150px;

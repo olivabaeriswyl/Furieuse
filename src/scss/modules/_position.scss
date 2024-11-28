@@ -1,3 +1,4 @@
+// Position des bulles et face des persos dans le présent
 .position-bubble-parent {
   position: relative;
 }
@@ -31,6 +32,8 @@
   width: 208px;
 }
 
+/*Position de l'image, du texte et du bouton du footer -> pour
+Que l'image soit dessus le texte mais dessous le footer*/
 #position-footer-back {
   position: relative;
   z-index: 1;
