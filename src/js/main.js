@@ -55,8 +55,21 @@ gsap.from("#face-baron-fourth", {
   scrollTrigger: { trigger: "#img-margin-edge-story", start: "top center" },
 });
 
+/*Pour régler le problème du scroll horizontal qui fait un truc étrange j'ai 
+fait en sorte que le background change de couleur, noir à rose pâle, pour que 
+cela soit moins choquant*/
+window.addEventListener("scroll", () => {
+  const scrollY = window.scrollY;
+
+  if (scrollY > 2000) {
+    document.body.style.backgroundColor = "#fce7e5";
+  } else {
+    document.body.style.backgroundColor = "#000000";
+  }
+});
+
 /*Parallax*/
-// const parallaxWidth = document.querySelector(".parallax-animation").offsetWidth;
+/*const parallaxWidth = document.querySelector(".parallax-animation").offsetWidth;*/
 
 gsap
   .timeline({
